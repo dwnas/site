@@ -47,6 +47,7 @@ function play() {
     }
     
     if (audio){
+        audio.volume = 0.75;
         audio.play();
         hasPlayed=true;
     };
