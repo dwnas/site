@@ -3,8 +3,8 @@
 @font-face {
     font-family: "Unifont";
     src:
-      url(./unifont.woff) format("woff"),
-      url(./unifont.ttf) format("truetype"),
+      url(./fonts/unifont.woff) format("woff"),
+      url(./fonts/unifont.ttf) format("truetype"),
       local("Unifont");
   
     font-weight: normal;

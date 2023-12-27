@@ -27,19 +27,19 @@ function play() {
     }
 
     if (song==1) {
-        audio = new Audio("./1.mp3");
+        audio = new Audio("./songs/1.mp3");
         song=2;
     } else if (song==2) {
-        audio = new Audio("./2.mp3");
+        audio = new Audio("./songs/2.mp3");
         song=3;
     } else if (song==3) {
-        audio = new Audio("./3.mp3");
+        audio = new Audio("./songs/3.mp3");
         song=4;
     } else if (song==4) {
-        audio = new Audio("./4.mp3");
+        audio = new Audio("./songs/4.mp3");
         song=5;
     } else if (song==5) {
-        audio = new Audio("./5.mp3");
+        audio = new Audio("./songs/5.mp3");
         song=null;
     } else {
         audio = null;
@@ -157,7 +157,7 @@ function playFirst() {
       nekoEl.style.height = "32px";
       nekoEl.style.position = "fixed";
       nekoEl.style.pointerEvents = "none";
-      nekoEl.style.backgroundImage = "url('./oneko.gif')";
+      nekoEl.style.backgroundImage = "url('./images/oneko.gif')";
       nekoEl.style.imageRendering = "pixelated";
       nekoEl.style.left = `${nekoPosX - 16}px`;
       nekoEl.style.top = `${nekoPosY - 16}px`;
