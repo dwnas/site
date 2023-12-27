@@ -346,7 +346,10 @@ let randomThings = [
   "sponsored by raid shadow legends",
   "i'd just like to interject",
   "bit.ly/ligma_hotline",
-  "dQw4w9WgXcQ"
+  "dQw4w9WgXcQ",
+  "rory in early 20s",
+  "#ff85f7",
+  "and you don't seem to understand"
 ];
 
 coolTitle()
