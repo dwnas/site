@@ -349,7 +349,8 @@ let randomThings = [
   "dQw4w9WgXcQ",
   "rory in early 20s",
   "#ff85f7",
-  "and you don't seem to understand"
+  "and you don't seem to understand",
+  "av with that drip hoe"
 ];
 
 coolTitle()
