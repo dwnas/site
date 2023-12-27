@@ -1,0 +1,116 @@
+
+/* stripped down Unifont 13.0.04, Unifont-min-13.0.04 Licensed under GPL2 */
+@font-face {
+    font-family: "Unifont";
+    src:
+      url(./unifont.woff) format("woff"),
+      url(./unifont.ttf) format("truetype"),
+      local("Unifont");
+  
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root {
+    --text: #f5eaf3;
+    --highlight: #fcd3f4;
+    --background: #160c17;
+    --primary: #df98cd;
+    --secondary: #88226e;
+    --accent: #de4eba;
+
+    --font: Unifont;
+    --fontsize: 16px;
+}
+
+.body, #header {
+    font-family: var(--font), sans-serif;
+    font-size: var(--fontsize);
+}
+
+body {
+    
+    color: var(--text);
+    background: var(--background);
+    background-repeat: repeat; 
+    
+}
+@media only screen and (width >= 965px) {
+    #navlink {
+        display:inherit !important;
+        position:absolute !important;
+        top: calc(50% - 90px);
+        left: calc(5%);
+        opacity: 90%;
+    }
+}
+
+
+a:hover img {
+    filter: drop-shadow(1px 1px 0px #8a0075) drop-shadow(-1px -1px 0px #8a0075)
+      drop-shadow(1px -1px 0px #8a0075) drop-shadow(-1px 1px 0px #8a0075);
+}
+.link {
+    color: var(--highlight);
+    text-decoration: underline dotted #00b3ff 0.15rem;
+    
+    text-align: center !important;
+}
+
+.link:hover {
+    filter: drop-shadow(1px -1px 0px #8a0075) drop-shadow(-1px -1px 0px #8a0075);
+}
+  
+
+.body {
+    z-index: 1;
+    text-align: center;
+    margin-top:2rem;
+}
+
+
+#header {
+    margin-top:2.5rem !important;
+    text-align:center;
+    font-size: 18px !important;
+    filter: drop-shadow(1px -1px 0px #8a0075);
+}
+
+.box {
+    border:#4e2f69 solid 2px;
+    background: #2a1c3a;
+    padding: 1em;
+    width: fit-content;
+    margin: 0 auto;
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+
+tr>td:first-child {
+    /* margin: 0 4px 0 0 */
+    padding: 0 1em 0 0;
+  }
+
+table {
+    table-layout: fixed;
+    /* width: 100%; */
+    border-collapse: collapse;
+    /* border: 3px solid purple; */
+    padding: 0;
+    text-align: left;
+  }
+
+.badge {
+    text-align: center;
+    margin: 8px auto;
+    font-size: 0;
+  }
+
+.badge img {
+    padding:0px 4px 0px 7px !important;
+}
+
+.clickheretolisten {
+    color: #f5eaf357;
+    width:auto !important;
+}
