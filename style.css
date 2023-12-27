@@ -29,12 +29,11 @@
 }
 
 body {
-    
     color: var(--text);
     background: var(--background);
     background-repeat: repeat; 
-    
 }
+
 @media only screen and (width >= 965px) {
     #navlink {
         display:inherit !important;
