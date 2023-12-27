@@ -34,13 +34,19 @@ body {
     background-repeat: repeat; 
 }
 
-@media only screen and (width >= 965px) {
+@media only screen and (width >= 1040px) {
     #navlink {
         display:inherit !important;
         position:absolute !important;
-        top: calc(50% - 90px);
+        top: calc(50% - 90px - 1em);
         left: calc(5%);
         opacity: 90%;
+        border:#4e2f69 solid 2px;
+        background: #2a1c3a;
+        padding: 1em;
+    }
+    #navlink-box {
+        display:inherit !important;
     }
 }
 
