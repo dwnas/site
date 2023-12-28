@@ -43,13 +43,28 @@ body {
         opacity: 90%;
         border:#4e2f69 solid 2px;
         background: #2a1c3a;
-        padding: 1em;
+        padding: 0.6em;
     }
-    #navlink-box {
+    
+}
+@media only screen and (width >= 1440px) {
+    #guestbook {
         display:inherit !important;
+        position:absolute !important;
+        top: calc(50% - 90px - 1em);
+        right: calc(5%);
+        opacity: 90%;
+        border:#4e2f69 solid 2px;
+        background: #2a1c3a;
+        padding: 0.6em;
+    }
+    #guestbook-button {
+        display:inherit !important;
+        position:absolute !important;
+        top: calc(50% - 90px - 1.15em);
+        right: calc(5%);
     }
 }
-
 
 a:hover img {
     filter: drop-shadow(1px 1px 0px #8a0075) drop-shadow(-1px -1px 0px #8a0075)
@@ -64,6 +79,10 @@ a:hover img {
 
 .link:hover {
     filter: drop-shadow(1px -1px 0px #8a0075) drop-shadow(-1px -1px 0px #8a0075);
+}
+
+.link-other:hover {
+    filter: drop-shadow(0.25px 0.25px 0px #f6c9f2) drop-shadow(0.25px 0.25px 0px #f6c9f2);
 }
   
 

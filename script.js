@@ -5,6 +5,12 @@ var hasPlayed = false;
 var audio;
 var isMouseHover;
 setTimeout(() => {
+
+var clickhereReviewButton = document.getElementById("guestbook-button");
+clickhereReviewButton.addEventListener("mousedown", (event) => {
+  window.open('https://www.ultraguest.com/sign/1703802066','sign my site :)','width=600,height=470');
+});
+
 var isOverPiplup=document.getElementById("piplup")
 isOverPiplup.addEventListener("mouseleave", function () {
   isMouseOver = false;
