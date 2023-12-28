@@ -54,11 +54,9 @@ function play() {
 };
 
 function playFirst() {
-  if (!isMouseHover){
-    if (!hasPlayed){
+  if (!isMouseHover && !hasPlayed){
       play();
     }
-  }
 }
 
 
