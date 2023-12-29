@@ -138,3 +138,7 @@ table {
     color: #f5eaf357;
     width:auto !important;
 }
+
+.badge iframe, .badge img {
+    margin-bottom:6px !important;
+}
