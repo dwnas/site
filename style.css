@@ -82,7 +82,7 @@ a:hover img {
 }
 
 .link-other:hover {
-    filter: drop-shadow(0.25px 0.25px 0px #f6c9f2);
+    filter: drop-shadow(0.25px 0.25px 0px #f6c9f2) drop-shadow(0.25px 0.25px 0px #f6c9f2);
 }
   
 
