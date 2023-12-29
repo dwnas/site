@@ -23,7 +23,7 @@
     --fontsize: 16px;
 }
 
-.body, #header {
+.body, #header, .counters {
     font-family: var(--font), sans-serif;
     font-size: var(--fontsize);
 }
