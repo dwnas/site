@@ -7,7 +7,7 @@ var isMouseHover;
 setTimeout(() => {
 
 var clickhereReviewButton = document.getElementById("guestbook-button");
-clickhereReviewButton.addEventListener("mousedown", (event) => {
+clickhereReviewButton.addEventListener("click", (event) => {
   window.open('https://www.ultraguest.com/sign/1703802066','sign my site :)','width=600,height=470');
 });
 
