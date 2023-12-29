@@ -4,12 +4,8 @@ var song = 1;
 var hasPlayed = false;
 var audio;
 var isMouseHover;
-setTimeout(() => {
 
-var clickhereReviewButton = document.getElementById("guestbook-button");
-clickhereReviewButton.addEventListener("click", (event) => {
-  window.open('https://www.ultraguest.com/sign/1703802066','sign my site :)','width=600,height=470');
-});
+setTimeout(() => {
 
 var isOverPiplup=document.getElementById("piplup")
 isOverPiplup.addEventListener("mouseleave", function () {
@@ -64,6 +60,10 @@ function playFirst() {
       play();
     }
 }
+
+function guestbookClick() {
+  window.open('https://www.ultraguest.com/sign/1703802066','sign my site :)','width=600,height=470');
+};
 
 
 // oneko.js: https://github.com/adryd325/oneko.js
