@@ -16,6 +16,17 @@ isOverPiplup.addEventListener("mouseover", function () {
 }, false);
 }, 200);
 
+setTimeout(() => {
+
+var isOverPiplup=document.getElementById("piplup")
+isOverPiplup.addEventListener("mouseleave", function () {
+  isMouseOver = false;
+}, false);
+isOverPiplup.addEventListener("mouseover", function () {
+  isMouseHover = true
+}, false);
+}, 1000);
+
 window.onload = () => {
   cursor = Math.floor(Math.random() * cursorAmount)+1;
   var elementToChange = document.getElementsByTagName("html")[0];
