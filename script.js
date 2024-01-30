@@ -28,9 +28,9 @@ isOverPiplup.addEventListener("mouseover", function () {
 }, 1000);
 
 window.onload = () => {
-  cursor = Math.floor(Math.random() * cursorAmount)+1;
-  var elementToChange = document.getElementsByTagName("html")[0];
- elementToChange.style.cursor = "url('./cursors/" + cursor + ".cur'), auto";
+  // cursor = Math.floor(Math.random() * cursorAmount)+1;
+  var changeCursor = document.getElementsByTagName("html")[0];
+ changeCursor.style.cursor = "url('./cursors/" + "1" + ".cur'), auto";
 }
 
 function play() {
